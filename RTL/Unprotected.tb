@@ -1,0 +1,87 @@
+module Unprotected_tb;
+parameter size_input = 512;
+parameter slice_size = 128;
+
+reg rst;
+reg clk = 0;
+reg [size_input-1:0] x_dbg, y_dbg;
+reg [size_input-1:0] result_dbg;
+reg [127:0] bus_input;
+wire done;
+integer i_dbg,j_dbg, k_dbg;
+reg [slice_size-1:0] slice1_dbg, slice2_dbg;
+reg [2*slice_size-1:0] p_dbg;
+reg [3*size_input-1:0] temp_dbg;
+reg [2*size_input-1:0] temp2_dbg;
+reg [size_input-1:0] temp_result_dbg;
+reg [size_input-1:0] mod_output_dbg;
+reg [2*size_input-1:0] output_mul_dbg;
+reg [2*size_input-1:0] mod_input_dbg;
+reg [7:0] state_dbg;
+integer clock_counter_dbg, flag2_dbg;
+
+// Assign internal signals for debugging
+always @* begin
+    clock_counter_dbg = uut.clock_counter;
+    slice1_dbg = uut.slice1;
+    slice2_dbg = uut.slice2;
+    mod_output_dbg = uut.mod_output;
+    temp_dbg = uut.temp;
+    temp_result_dbg = uut.temp_result;
+    p_dbg = uut.p;
+    state_dbg = uut.state;
+    i_dbg = uut.i;
+    j_dbg = uut.j;
+    k_dbg = uut.k;
+    x_dbg = uut.x;
+    y_dbg = uut.y;
+    output_mul_dbg = uut.output_mul;
+    flag2_dbg = uut.flag;
+    mod_input_dbg = uut.mod_input;
+    temp2_dbg = uut.temp2;
+    result_dbg = uut.result;
+end
+
+// Instantiate the exponentiation module
+Unprotected uut (
+    .rst(rst),
+    .clk(clk),
+    .bus_input(bus_input),
+    .done(done)
+);
+
+// Clock generation
+always #1 clk = ~clk;
+
+initial begin
+    // Initialize all signals
+    rst = 1;
+
+    #10 rst = 0;
+     //x read
+     bus_input = 128'd2013228201322897231989723198;
+     #2 
+     bus_input = 128'd3228201320028972319800972319;
+     #2 
+     bus_input = 128'd8923723643734835484584754319;
+     #2 
+     bus_input = 128'd2720193879543983574263346274;
+     #2 
+
+     //y read
+     bus_input = 128'd5189234201322897231988329784;
+     #2
+     bus_input = 128'd3238236285996847346347348243;
+     #2
+     bus_input = 128'd1238721378123123821389218312;
+     #2
+     bus_input = 128'd9871263123613258613272636743;
+     #2
+
+    // Wait and observe
+    #500000;
+
+    $finish; // Finish simulation
+end
+
+endmodule

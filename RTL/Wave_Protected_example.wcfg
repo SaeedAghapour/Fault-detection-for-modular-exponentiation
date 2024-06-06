@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="protected_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="protected_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="500,025,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="500,026,002 ps"></ZoomEndTime>
+      <Cursor1Time time="500,026,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="272"></NameColumnWidth>
+      <ValueColumnWidth column_width="645"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/protected_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/done_dbg" type="logic">
+      <obj_property name="ElementShortName">done_dbg</obj_property>
+      <obj_property name="ObjectShortName">done_dbg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/x0_dbg" type="array">
+      <obj_property name="ElementShortName">x0_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">x0_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/y0_dbg" type="array">
+      <obj_property name="ElementShortName">y0_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">y0_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/bus_input" type="array">
+      <obj_property name="ElementShortName">bus_input[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bus_input[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/fault_flag" type="logic">
+      <obj_property name="ElementShortName">fault_flag</obj_property>
+      <obj_property name="ObjectShortName">fault_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/result_dbg" type="array">
+      <obj_property name="ElementShortName">result_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">result_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/i_dbg" type="array">
+      <obj_property name="ElementShortName">i_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/j_dbg" type="array">
+      <obj_property name="ElementShortName">j_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/k_dbg" type="array">
+      <obj_property name="ElementShortName">k_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/k1_dbg" type="array">
+      <obj_property name="ElementShortName">k1_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k1_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/k2_dbg" type="array">
+      <obj_property name="ElementShortName">k2_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k2_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/k3_dbg" type="array">
+      <obj_property name="ElementShortName">k3_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k3_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/k4_dbg" type="array">
+      <obj_property name="ElementShortName">k4_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k4_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/x_dbg" type="array">
+      <obj_property name="ElementShortName">x_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">x_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/result_partial_1_dbg" type="array">
+      <obj_property name="ElementShortName">result_partial_1_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">result_partial_1_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/result_partial_2_dbg" type="array">
+      <obj_property name="ElementShortName">result_partial_2_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">result_partial_2_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/slice1_dbg" type="array">
+      <obj_property name="ElementShortName">slice1_dbg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">slice1_dbg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/slice2_dbg" type="array">
+      <obj_property name="ElementShortName">slice2_dbg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">slice2_dbg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/p_dbg" type="array">
+      <obj_property name="ElementShortName">p_dbg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">p_dbg[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/temp_dbg" type="array">
+      <obj_property name="ElementShortName">temp_dbg[1535:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_dbg[1535:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/temp2_dbg" type="array">
+      <obj_property name="ElementShortName">temp2_dbg[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">temp2_dbg[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/temp_result_dbg" type="array">
+      <obj_property name="ElementShortName">temp_result_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_result_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/mod_output_dbg" type="array">
+      <obj_property name="ElementShortName">mod_output_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mod_output_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/output_mul_dbg" type="array">
+      <obj_property name="ElementShortName">output_mul_dbg[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">output_mul_dbg[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/mod_input_dbg" type="array">
+      <obj_property name="ElementShortName">mod_input_dbg[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">mod_input_dbg[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/weight_1_dbg" type="array">
+      <obj_property name="ElementShortName">weight_1_dbg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_1_dbg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/weight_2_dbg" type="array">
+      <obj_property name="ElementShortName">weight_2_dbg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_2_dbg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/x1_dbg" type="array">
+      <obj_property name="ElementShortName">x1_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">x1_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/x2_dbg" type="array">
+      <obj_property name="ElementShortName">x2_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">x2_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/y1_dbg" type="array">
+      <obj_property name="ElementShortName">y1_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">y1_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/y2_dbg" type="array">
+      <obj_property name="ElementShortName">y2_dbg[511:0]</obj_property>
+      <obj_property name="ObjectShortName">y2_dbg[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/state_dbg" type="array">
+      <obj_property name="ElementShortName">state_dbg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state_dbg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/clock_counter_dbg" type="array">
+      <obj_property name="ElementShortName">clock_counter_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_counter_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/flag2_dbg" type="array">
+      <obj_property name="ElementShortName">flag2_dbg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flag2_dbg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/size_input" type="array">
+      <obj_property name="ElementShortName">size_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">size_input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/protected_tb/slice_size" type="array">
+      <obj_property name="ElementShortName">slice_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slice_size[31:0]</obj_property>
+   </wvobject>
+</wave_config>

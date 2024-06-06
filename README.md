@@ -23,15 +23,21 @@ Contains the RTL implementation of our design
 In our design, in order to not exceed the total number of IOs, we used a 128-bit bus that fills each of our 512-bit inputs in 4 cycles. As an example, we gave the following values to the inputs:
 
 // reading x
-bus_input = 128'd2013228201322897231989723198; 
+bus_input = 128'd2013228201322897231989723198;
+
 #2 bus_input = 128'd3228201320028972319800972319; 
+
 #2 bus_input = 128'd8923723643734835484584754319; 
+
 #2 bus_input = 128'd2720193879543983574263346274; 
 
 // reading y
 #2 bus_input = 128'd5189234201322897231988329784; 
+
 #2 bus_input = 128'd3238236285996847346347348243;
+
 #2 bus_input = 128'd1238721378123123821389218312; 
+
 #2 bus_input = 128'd9871263123613258613272636743; 
 #2
 Now after concatenating these values, we will have:

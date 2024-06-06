@@ -1,11 +1,11 @@
 *******************************************************************************************************************************************
 
 This repository contains all the codes related to our paper, "Efficient Fault Detection Architectures for Modular Exponentiation Targeting Cryptographic Applications Benchmarked on FPGA." The repository is organized into three folders:
-	**Simulation**: This folder includes all fault model simulations. 
+	Simulation: This folder includes all fault model simulations. 
 	    Written in C and utilizing the GMP library.
-	**Overhead**: Contains the software implementation of the design on the ARM Cortex-A72 platform using PAPI.
+	Overhead Contains the software implementation of the design on the ARM Cortex-A72 platform using PAPI.
 	    Written in C and utilizing the GMP library.
-	**RTL**: Contaiting the RTL implementation of our design
+	RTL: Containing the RTL implementation of our design
 	    Written in Verilog.
 	    Includes two Verilog codes for our design and the unprotected design, two testbenches for these designs, a schematic of the critical path, and an example waveform simulation.
 	    The code works with inputs of size 512 bits and written in a way to be easily extendable to bigger numbers.

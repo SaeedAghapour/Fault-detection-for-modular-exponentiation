@@ -22,7 +22,6 @@ Contains the RTL implementation of our design
 
 In our design, in order to not exceed the total number of IOs, we used a 128-bit bus that fills each of our 512-bit inputs in 4 cycles. As an example, we gave the following values to the inputs:
 
-```verilog
 // reading x
 bus_input = 128'd2013228201322897231989723198; 
 #2 bus_input = 128'd3228201320028972319800972319; 
